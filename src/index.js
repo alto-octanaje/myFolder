@@ -10,7 +10,7 @@ import { AppProvider } from "./Context/Store/store";
 
 
 
-ReactDOM.createRoot(document.getElementById("root"));
+ReactDOM.createRoot(document.getElementById("root")).
 root.render(
   <Provider store={store}>
     {/* <BrowserRouter> */}
