@@ -11,7 +11,7 @@ export const Home = () => {
 
   return (
     <main className={style.mainC} >
-      <div>estoy en home fliz como lombris</div>
+      <div>estoy en home fliz como lombrises</div>
       <Menu/>
       <About1/>
       <BackButton/>
