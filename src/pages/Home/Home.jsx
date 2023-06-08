@@ -7,7 +7,7 @@ import { Menu } from "../../Component/Menu/Menu";
 
 
 
-export const Home = () => {
+const Home = () => {
 
   return (
     <main className={style.mainC} >
@@ -19,3 +19,4 @@ export const Home = () => {
     </main>
   );
 };
+export default Home;

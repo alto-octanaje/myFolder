@@ -1,16 +1,17 @@
 import "./App.css";
-import { RouterProvider } from "react-router-dom";
-import router from "./config/Router";
-import { Home } from "./pages/Home/Home";
+import { Route, Routes, useLocation } from "react-router-dom";
+import Home from "./pages/Home/Home";
 
 function App() {
- 
+
+
   return (
-    <RouterProvider router={router}>
-      <div className="App">
-        {/* <Home/> */}
-      </div>
-    </RouterProvider>
+    <div className="App">
+      <Routes>
+        <Route exact path="/myFolder" element={<Home />} />
+        <Route exact path="/" element={<Home />} />
+      </Routes>
+    </div>
   );
 }
 

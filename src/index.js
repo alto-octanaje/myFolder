@@ -10,7 +10,8 @@ import { AppProvider } from "./Context/Store/store";
 
 
 
-ReactDOM.createRoot(document.getElementById("root")).
+const root = ReactDOM.createRoot(document.getElementById("root"));
+
 root.render(
   <Provider store={store}>
     <BrowserRouter>
@@ -20,7 +21,8 @@ root.render(
         </AppProvider>
       </React.StrictMode>
     </BrowserRouter>
-  </Provider>
+  </Provider>,
+  // document.getElementById("root")
 );
 
 // If you want to start measuring performance in your app, pass a function
