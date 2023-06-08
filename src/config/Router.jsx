@@ -13,7 +13,7 @@ const router = createBrowserRouter(
   createRoutesFromElements(
     <>
       <Route path="jeissonPinzon/" element={<Home />} />
-      <Route path="jeissonMaterial/" element={<Menu />} />
+      <Route path="myFolder/" element={<Menu />} />
       <Route path="/" element={<Menu />} />
       **<Route path="*" element={<NotFound />}></Route>**
     </>
