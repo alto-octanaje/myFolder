@@ -1,0 +1,55 @@
+.containerFrom {
+  max-Width: 600px;
+  padding: 20px;
+  margin: auto;
+  border: 1px solid #ddd;
+}
+
+.titleFrom {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.inputNameC {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.inputName {
+  padding: 8px;
+  border: 1px solid #ccc;
+}
+
+.inputEmailC {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.inputEmail {
+  padding: 8px;
+  border: 1px solid #ccc
+}
+
+.inputMessageC {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+
+.inputMessage {
+  padding: 8px;
+  border: 1px solid #ccc;
+  resize: none;
+}
+
+.buttonSend {
+  background-color: #2196f3;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}

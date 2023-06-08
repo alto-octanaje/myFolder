@@ -1,0 +1,19 @@
+.socialIcons {
+  list-style-type: none;
+  justify-self: center;
+  display: flex;
+  padding-bottom: 2rem;
+}
+
+.socialIcons a {
+  text-decoration: none;
+  font-size: 1.5rem;
+  margin: 0 0.5rem;
+  color: hsl(205, 78%, 60%);
+  transition: all 0.3s linear;
+}
+
+
+.socialIcons a:hover {
+  color: hsl(205, 86%, 17%);
+}

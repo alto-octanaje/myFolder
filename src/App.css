@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya&family=Concert+One&family=PT+Sans&family=Patua+One&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+}
+
+h1 {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 30px;
+}
+h2{
+  font-family: 'Patua One', cursive;
+  font-size: 25px;
+
+}
+
+h3 {
+  font-family: 'Patua One', cursive;
+
+}
+
+/* 
+font-family: 'Alegreya', serif;
+font-family: 'Concert One', cursive;
+font-family: 'Patua One', cursive;
+font-family: 'PT Sans', sans-serif;
+ */

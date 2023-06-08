@@ -1,0 +1,115 @@
+/* botton of menu-style y animacion */
+.bottonMenu{
+    position: fixed;
+    top: 2rem;
+    left: 3rem;
+    font-size: 2rem;
+    background: transparent;
+    border-color: transparent;
+    color: hsl(205, 78%, 60%);
+    transition: all 0.3s linear;
+    cursor: pointer;
+    animation: bounce 2s ease-in-out infinite;
+}
+@keyframes bounce {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.5);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+/* menubar-lateral and transition */
+.menuBar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #fff url("https://i.pinimg.com/564x/88/8b/0d/888b0d3304eaf88478a133c53616c9af.jpg")no-repeat center center fixed;
+  display: grid;
+  grid-template-rows: auto 6fr auto;
+  row-gap: 1rem;
+  box-shadow: hsl(360, 67%, 44%);
+  transition: all 0.3s linear;
+  transform: translate(-100%);
+}
+
+.showSidebar {
+  transform: translate(0px);
+}
+
+@media screen and (min-width: 676px) {
+  .menuBar {
+    width: 400px;
+  }
+}
+
+/* style buton closeMenu */
+
+.closeMenu {
+  font-size: 1.75rem;
+  background: transparent;
+  border-color: transparent;
+  color: hsl(205, 78%, 60%);
+  transition: all 0.3s linear;
+  cursor: pointer;
+  color: hsl(360, 67%, 44%);
+  margin-top: 0.2rem;
+}
+
+.closeMenu:hover {
+  color: hsl(360, 71%, 66%);
+}
+
+/* style button access*/
+.accessIcons {
+  list-style-type: none;
+}
+
+.accessIcons a {
+  display: flex;
+  align-items: center;
+  font-size: 1.25rem;
+  text-transform: capitalize;
+  padding: 1rem 1.5rem;
+  color: hsl(209, 34%, 30%);
+  transition: all 0.3s linear;
+  letter-spacing: 0.1rem;
+}
+
+.accessIcons a:hover {
+  background: hsl(210, 36%, 96%);
+  color: hsl(211, 39%, 23%);
+}
+
+.accessIcons a svg {
+  font-size: 1.5rem;
+  color: var(--clr-grey-5);
+  margin-right: 1rem;
+  transition: all 0.3s linear;
+}
+
+.accessIcons a:hover svg {
+  color: hsl(209, 28%, 39%);
+}
+
+.socialIcons {
+  list-style-type: none;
+  justify-self: center;
+  display: flex;
+  padding-bottom: 2rem;
+}
+
+.socialIcons a {
+  text-decoration: none;
+  font-size: 1.5rem;
+  margin: 0 0.5rem;
+  color: hsl(205, 78%, 60%);
+  transition: all 0.3s linear;
+}
+
