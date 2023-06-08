@@ -15,7 +15,6 @@ export const Home = () => {
       <Menu/>
       <About1/>
       <BackButton/>
-
       <Footer/> 
     </main>
   );
