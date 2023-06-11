@@ -12,7 +12,7 @@ import { AiOutlineGithub, AiOutlineWhatsApp } from "react-icons/ai";
 export const links = [
   {
     id: 1,
-    url: "/home",
+    url: "/",
     text: "home",
     icon: <FaHome />,
   },

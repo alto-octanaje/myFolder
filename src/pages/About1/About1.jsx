@@ -12,15 +12,10 @@ import { SiMongodb } from "react-icons/si";
 import { GrMysql } from "react-icons/gr";
 import { AiFillGithub } from "react-icons/ai";
 import { SiVisualstudio } from "react-icons/si";
+import {ZoneProyect} from "../../Component/ZoneProyect/ZoneProyect"
 
 
 export const About1 = () => {
-  const arrayImg = [
-    "https://i.pinimg.com/564x/ae/63/ce/ae63ce200255d866afb01d881b9769fb.jpg",
-    "https://i.pinimg.com/564x/09/5c/8f/095c8f53b69cea5fefbbf27249fed453.jpg",
-    "https://i.pinimg.com/564x/a3/6c/2c/a36c2c3926e10a91a684e1562ac1f1c8.jpg",
-  ];
-  const randomNumber = Math.floor(Math.random() * 4);
 
   return (
       <section className={style.inMain}>
@@ -94,75 +89,7 @@ export const About1 = () => {
                 </div>
               </div>
             </div>
-            {/*------zone proyectos ------*/}
-            <div className={style.containerCenter}>
-              <div className={style.tittleContainerC}>
-                <h2 className={style.tittleContainer}>Proyectos personales</h2>
-              </div>
-              {/*  container of left/right   */}
-              <div className={style.left_right_containerR}>
-
-                {/*     container-Right tittle  text img   */}
-                <div className={style.sideLeft}>
-                  <div className={style.tittleContainerL}>
-                    <h3 className={style.supTittle}>Reack and Morty</h3>
-                  </div>
-                  <div className={style.side_ContainerL}>
-                    <p>
-                      este es mi primer proyecto haciendo la peticion a una api
-                    </p>
-                  </div>
-                </div>
-                {/* container right side */}
-                <div className={style.sideRight}>
-                  <div className={style.side_ContainerR}>
-                    <img
-                      src={arrayImg[randomNumber]}
-                      alt="no fond"
-                      className={style.imgProyect}
-                    />
-                  </div>
-                </div>
-              </div>
-
-              {/*     container-Right tittle  text img   */}
-              <div className={style.left_right_containerL}>
-                {/* container right side */}
-                <div className={style.sideLeft}>
-                  <div className={style.side_ContainerL}>
-                    <img
-                      src={arrayImg[randomNumber]}
-                      alt="no fond"
-                      className={style.imgProyect}
-                    />
-                  </div>
-                </div>
-                {/* container right side */}
-                <div className={style.sideRight}>
-                  <div className={style.tittleContainerR}>
-                    <h3 className={style.supTittle}>Reack and Morty</h3>
-                  </div>
-                  <div className={style.side_ContainerR}>
-                    <p>
-                      este es mi primer proyecto haciendo la peticion a una api
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            {/*     container tittle y text left  */}
-            <div className={style.containerR}>
-              <div className={style.tittleContainerR}>
-                <h2 className={style.tittleR}>titulo</h2>
-              </div>
-              <div className={style.textoContainerR}>
-                <p>
-                  texto mas palabras a cen todo esto que ponede hacer para r
-                  precentar el curso un poco de sudor{" "}
-                </p>
-              </div>
-            </div>
+            <ZoneProyect />
           </div>
         </div>
       </section>

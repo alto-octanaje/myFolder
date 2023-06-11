@@ -51,18 +51,6 @@ export const Menu = () => {
               );
             })}
           </ul>
-          {/* <ul className={style.socialIcons}>
-            {social.map((link) => {
-              const { id, url, icon } = link;
-              return (
-                <li key={id}>
-                  <a href={url} target="noreferer">
-                    {icon}
-                  </a>
-                </li>
-              );
-            })}
-          </ul> */}
           <IconSocial/>
         </aside>
       )}

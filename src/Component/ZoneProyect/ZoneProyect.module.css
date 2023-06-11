@@ -1,0 +1,90 @@
+/* constainer center and 2div side Zone proyect*/
+
+.containerCenter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 30px;
+  }
+  
+  .tittleContainerC {
+    text-align: center;
+    width: auto;
+    margin-bottom: 2%;
+  }
+  
+  .tittleContainer {
+    font-size: 50px;
+  }
+  
+  .supTittle {
+    font-size: 30px;
+  }
+  
+  .sizeIcons {
+    font-size: 50px;
+    padding-left: 3%;
+  }
+  
+  .sizeIcons2 {
+    font-size: 40px;
+    padding-left: 5%;
+  }
+  
+  .imgProyect {
+    width: 50%;
+    height: 80%;
+  }
+  
+  .left_right_containerR {
+    background: none;
+  }
+  
+  .left_right_containerL {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  
+  .sideLeft {
+    width: 100%;
+  }
+  
+  .sideRight {
+    width: 100%;
+  }
+  
+  
+  .tittleContainerL {
+    text-align: center;
+    font-size: 50px;
+  }
+  
+  .side_ContainerL {
+    text-align: center;
+  }
+  
+  .side_ContainerR {
+    text-align: center;
+  }
+  
+  @media screen and (min-width: 676px) {
+    .left_right_containerL {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+  
+    .left_right_containerR {
+      display: flex;
+      justify-content: space-between;
+    }
+  
+    .sideLeft {
+      width: 50%;
+    }
+  
+    .sideRight {
+  
+      width: 50%;
+    }
+  }
