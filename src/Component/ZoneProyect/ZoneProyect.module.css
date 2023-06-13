@@ -31,10 +31,7 @@
     padding-left: 5%;
   }
   
-  .imgProyect {
-    width: 50%;
-    height: 80%;
-  }
+
   
   .left_right_containerR {
     background: none;
@@ -61,10 +58,12 @@
   
   .side_ContainerL {
     text-align: center;
+
   }
   
   .side_ContainerR {
     text-align: center;
+    min-height: 280px;
   }
   
   @media screen and (min-width: 676px) {
@@ -84,7 +83,6 @@
     }
   
     .sideRight {
-  
       width: 50%;
     }
   }
